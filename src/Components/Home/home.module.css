@@ -1,0 +1,73 @@
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+
+.wrapper .wrapper * {
+    box-sizing: border-box;
+}
+
+.tm-home {
+    width: 100%;
+    min-height: 100vh;
+    clear: both;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.home-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.avatar .img-avatar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 9px hsl(0deg 0% 100% / 30%);
+    overflow: hidden;
+    min-width: 300px;
+    min-height: 300px;
+    position: relative;
+    border-radius: 100%;
+}
+
+.img-avatar {
+    background-image: url(./avatar.jpg);
+}
+
+.main-info {
+    margin-left: 80px;
+}
+
+.name {
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.job {
+    font-family: sans-serif, 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    max-width: 450px;
+    margin-bottom: 30px;
+    color: #767676;
+}
